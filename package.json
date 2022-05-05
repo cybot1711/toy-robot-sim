@@ -1,0 +1,42 @@
+{
+  "name": "toy-robot-simulator",
+  "version": "1.0.0",
+  "description": "toy robot simulator",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node --loader ts-node/esm src/main.ts",
+    "lint": "eslint --ext .ts,.js src/",
+    "lint:fix": "yarn lint --fix",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "inquirer": "^8.2.4",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/figlet": "^1.5.4",
+    "@types/inquirer": "^8.2.1",
+    "@types/jest": "^27.5.0",
+    "@types/line-reader": "^0.0.34",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.0.3",
+    "line-reader": "^0.4.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}

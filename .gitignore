@@ -7,5 +7,3 @@ dist
 coverage/
 .idea
 .vscode
-package-lock.json
-yarn.lock
